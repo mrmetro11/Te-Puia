@@ -1,0 +1,7 @@
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+.hero-image {
+    background-image: url("./20240626_111238.jpg") ;
+}

@@ -1,7 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+main {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 img {
-    width: 100%;
-    border-radius: 5px;
+    width: 100%
 }
 .hero-image {
-    background-image: url("./20240626_111238.jpg") ;
+    width: 100%;
+    background-image: url("20240626_111238.jpg");
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text {
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 50px;
+}
+h2 {
+    font-size: 50px;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(64, 64, 64);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+} 
+.navbar a {
+    color: white;
+    text-decoration: underline;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: rgb(26, 26, 26);
+}
+.navbar li {
+    float: left;
+}
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
 }

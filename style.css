@@ -99,7 +99,10 @@ h2 {
 }
 .button {
     text-align: center;
-    font-size: 1.25 rem;
+    font-size: 1.35rem;
+}
+.button-text {
+    font-size: 1.25rem;
 }
 .geo a {
     display: inline-block;
@@ -158,6 +161,7 @@ footer {
     background-color: rgb(64, 64, 64);
     color: white;
     text-align: center;
+    font-size: 1.15rem;
 }
 .map {
     width: 500px;

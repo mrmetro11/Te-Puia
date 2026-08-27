@@ -13,9 +13,10 @@ main {
 img {
     width: 100%;
     border-radius: 15px;
+    border: 8px solid rgb(26, 26, 26)
 }
 .hero-section {
-    background-image: url("./20240626_111235.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),  url("./20240626_111235.jpg");
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -29,9 +30,10 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
     -webkit-text-stroke: 2px black;
+    font-weight: bold;
 } 
 .hero-text-centered-2 {
     font-weight: bold;
@@ -43,7 +45,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 70px;
+    font-size: 90px;
     text-align: center;
     -webkit-text-stroke: 2px black;
 }
@@ -96,6 +98,12 @@ h2 {
 }
 .info {
     font-size: 1.25rem;
+}
+.block-highlight {
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 12px;
+    font-family: sa
 }
 .button {
     text-align: center;
@@ -162,8 +170,4 @@ footer {
     color: white;
     text-align: center;
     font-size: 1.15rem;
-}
-.map {
-    width: 500px;
-    height: 500px;
 }
